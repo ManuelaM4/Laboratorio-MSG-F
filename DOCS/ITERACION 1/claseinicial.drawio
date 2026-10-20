@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="_EhgnZfHVUFor7OXLH-p">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" value="&lt;&lt;abstracta&gt;&gt;&#xa;Activo" vertex="1">
+          <mxGeometry height="130" width="180" x="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-11" parent="DLazP4kDLwN7PPveKDFJ-10" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBorderColor=none;" value="+ numero" vertex="1">
+          <mxGeometry height="30" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-12" parent="DLazP4kDLwN7PPveKDFJ-10" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="+ Crear ()&lt;br&gt;+ Eliminar ()&lt;br&gt;&lt;div&gt;+ Modificar ()&lt;/div&gt;&lt;div&gt;+ Consultar ()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="180" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-22" edge="1" parent="1" source="DLazP4kDLwN7PPveKDFJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=gap;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="DLazP4kDLwN7PPveKDFJ-18">
+          <mxGeometry relative="1" x="-0.8299" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="280.5" />
+              <mxPoint x="620" y="280.5" />
+            </Array>
+            <mxPoint x="190" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" value="Hipoteca" vertex="1">
+          <mxGeometry height="170" width="180" x="90" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-15" parent="DLazP4kDLwN7PPveKDFJ-14" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="- pareja&lt;div&gt;- valor inicial&lt;/div&gt;&lt;div&gt;- fecha&lt;/div&gt;&lt;div&gt;- cuota&lt;/div&gt;&lt;div&gt;- ingreso_semana&lt;/div&gt;&lt;div&gt;- ompuesto_predial&lt;/div&gt;&lt;div&gt;- fecha_impuesto&lt;/div&gt;&lt;div&gt;- seguro_Hogar&lt;/div&gt;&lt;div&gt;- fecha_seguro&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;" value="Inversion" vertex="1">
+          <mxGeometry height="130" width="180" x="530" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-19" parent="DLazP4kDLwN7PPveKDFJ-18" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="- entidad&lt;div&gt;- valor&lt;/div&gt;&lt;div&gt;- plazo&lt;/div&gt;&lt;div&gt;- interés&lt;/div&gt;&lt;div&gt;- fecha&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DLazP4kDLwN7PPveKDFJ-25" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;defaultLabelBackgroundColor=gap;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
